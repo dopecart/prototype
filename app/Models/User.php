@@ -6,11 +6,13 @@ use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use GoldSpecDigital\LaravelEloquentUUID\Database\Eloquent\Uuid;
+use Spatie\Permission\Traits\HasRoles;
 
 class User extends Authenticatable
 {
     use Notifiable;
     use Uuid;
+    use HasRoles;
 
     /**
      * The "type" of the auto-incrementing ID.
