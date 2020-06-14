@@ -10,21 +10,21 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('themes/admin/js/app.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('themes/admin/css/app.css') }}" rel="stylesheet">
 </head>
-<body>
+<body class="bg-gray-100">
     <div id="app">
         <nav class="flex px-4 py-3 bg-purple-900 text-white">
             <!-- Left Side Of Navbar -->
             <div class="mr-auto">
-                <a class="hover:bg-purple-800 rounded-sm cursor-pointer p-2" href="{{ route('dashboard') }}">
+                <a class="hover:bg-purple-800 rounded-sm cursor-pointer p-2" href="{{ route('home') }}">
                     {{ config('app.name', 'Dopecart') }}
                 </a>
             </div>
