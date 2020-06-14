@@ -54,4 +54,9 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'status' => 'boolean',
     ];
+
+    public function name()
+    {
+        return "{$this->first_name} {$this->last_name}";
+    }
 }
