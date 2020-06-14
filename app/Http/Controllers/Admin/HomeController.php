@@ -1,10 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Igaster\LaravelTheme\Facades\Theme;
 
-class DashboardController extends Controller
+class HomeController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -13,7 +15,7 @@ class DashboardController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        // $this->middleware('auth');
     }
 
     /**
@@ -23,6 +25,8 @@ class DashboardController extends Controller
      */
     public function index()
     {
-        return view('dashboard');
+        Theme::set('ADMIN_THEME');
+        // dd(Theme::current());
+        return view('home');
     }
 }
