@@ -29,7 +29,7 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'default' => null,
+    'default' => 'ALI_THEME',
 
     /*
     |--------------------------------------------------------------------------
@@ -64,6 +64,11 @@ return [
         'ADMIN_THEME' => [
             'views-path' => 'admin/views',
             'asset-path' => 'public/themes/admin',
+        ],
+
+        'ALI_THEME' => [
+            'views-path' => 'ali/views',
+            'asset-path' => 'public/themes/ali',
         ],
 
     ],
