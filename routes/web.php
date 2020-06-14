@@ -17,10 +17,18 @@ use Illuminate\Support\Facades\Auth;
 Route::prefix('admin')
     ->middleware(['setTheme:ADMIN_THEME'])
     ->namespace('Admin')
-    ->group(function () {
+    ->group(function() {
 
     Auth::routes(['register' => false]);
+
     Route::get('/', 'HomeController@index')->name('home');
+
+    Route::prefix('settings')
+        ->namespace('Settings')
+        ->group(function() {
+
+        Route::get('/', 'SettingsController@index');
+    });
 });
 
 Route::get('/', 'HomeController@index')->name('home');
