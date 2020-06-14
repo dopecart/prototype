@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Auth::routes(); //['register' => false]
+Route::prefix('admin')
+    ->middleware(['setTheme:ADMIN_THEME'])
+    ->namespace('Admin')
+    ->group(function () {
 
-Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
+    Auth::routes(['register' => false]);
+    Route::get('/', 'HomeController@index')->name('home');
+});
