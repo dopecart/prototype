@@ -10,11 +10,13 @@
   "require": {
     "php": "^7.2.5",
     "anlutro/l4-settings": "^0.11.2",
+    "astrotomic/laravel-translatable": "^11.8",
     "fideloper/proxy": "^4.2",
     "fruitcake/laravel-cors": "^2.0",
     "goldspecdigital/laravel-eloquent-uuid": "^7.0",
     "guzzlehttp/guzzle": "^6.3",
     "igaster/laravel-theme": "^2.0",
+    "kalnoy/nestedset": "^5.0",
     "laravel/framework": "^7.0",
     "laravel/tinker": "^2.0",
     "laravel/ui": "^2.0",
