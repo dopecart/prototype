@@ -1,217 +1,40 @@
-// KEEP IT SIMPLE
+// KEEP IT SIMPLE STUPID
 
 admin:
-    ☐ user
-    global-setting:
-        general:
-        View and update your store details
-            details:
-                ☐ store name
-                ☐ store contact email
-                ☐ customer email
-                ☐ store industry
-            store address:
-                ☐ legal name
-                ☐ phone
-                ☐ street
-                ☐ apt
-                ☐ city
-                ☐ zip
-                ☐ country
-            standarts and formats:
-                ☐ timezone
-                ☐ unit system
-                ☐ default weight unit
-                order id format:
-                    ☐ prefix
-                    ☐ suffix
-                ☐ currency
-        locations:
-        Manage the places you stock inventory, fulfill orders, and sell products
-            ☐ default location
-            location:
+    ☐ catalog
+        ☐ categories
+            ☐ list categories
+                ☐ id
                 ☐ name
-                ☐ ...address
-        permissions:
-            ☐ store owner
-            ✘ staff @cancelled(20-06-14 01:05)
-                ✘ first name @cancelled(20-06-14 01:05)
-                ✘ last name @cancelled(20-06-14 01:05)
-                ✘ email @cancelled(20-06-14 01:05)
-                ✘ permission @cancelled(20-06-14 01:05)
-                    ✘ TODO @cancelled(20-06-14 01:05)
-        payments:
-            payment providers:
-                ☐ paypal
-                ✘ amazon @cancelled(20-06-14 01:05)
-                ☐ sezzle
-                    ☐ account information
-                    ☐ accepted payments
-                    ☐ test mode
-
-        notifications:
-            ☐ customers notifications
-            email marketing:
-                ☐ require customers to confirm email
-                ✘ track email opens @cancelled(20-06-14 01:05)
-            ✘ staff order notification: @cancelled(20-06-14 01:05)
-                ✘ edit template @cancelled(20-06-14 01:05)
-                ✘ recipients @cancelled(20-06-14 01:05)
-        store languages:
-            ☐ default language
-            ✘ translated languages: @cancelled(20-06-14 01:05)
-            ✘ account language @cancelled(20-06-14 01:05)
-        checkout:
-            ✘ style: @cancelled(20-06-14 01:06)
-            ✘ customize the style of the checkout @cancelled(20-06-14 01:06)
-            customer accounts:
-                ☐ are disabled
-                ☐ are optional
-                ☐ are required
-            customer contact:
-                ✘ phone @cancelled(20-06-14 01:06)
-                ☐ email
-            form options:
-                ☐ full name
-                ✘ company name @cancelled(20-06-14 01:07)
-                ☐ address line
-                ☐ shipping phone number
-            order processing:
-                user is checking out:
-                    ☐ use shipping address at billing
-                    ✘ address autocompletions @cancelled(20-06-14 01:06)
-                    ✘ require confirmation step @cancelled(20-06-14 01:06)
-                ✘ order has been paid: @cancelled(20-06-14 01:06)
-                    ✘ fulfill order items @cancelled(20-06-14 01:06)
-                    ✘ additinal scripts @cancelled(20-06-14 01:06)
-                ✘ email marketing: @cancelled(20-06-14 01:06)
-                    ✘ sign up option at checkout @cancelled(20-06-14 01:06)
-                ✘ abandoned checkouts: @cancelled(20-06-14 01:06)
-                    ✘ send abandoned checkout emails @cancelled(20-06-14 01:06)
-                        ✘ send after @cancelled(20-06-14 01:06)
-                ✘ checkout language: @cancelled(20-06-14 01:07)
-                    ✘ select different language @cancelled(20-06-14 01:07)
-        ✘ gift cards: @cancelled(20-06-14 01:07)
-            ✘ TODO @cancelled(20-06-14 01:07)
-        ✘ billing: @cancelled(20-06-14 01:07)
-            ✘ tax registration: @cancelled(20-06-14 01:07)
-                ✘ vat @cancelled(20-06-14 01:07)
-        shipping and delivery:
-            rates:
-                TODO
-            ✘ local pickup: @cancelled(20-06-14 01:08)
-                ✘ locations @cancelled(20-06-14 01:08)
-            ✘ packages: @cancelled(20-06-14 01:08)
-                ✘ default package @cancelled(20-06-14 01:08)
-                ✘ add package @cancelled(20-06-14 01:08)
-                    ✘ type @cancelled(20-06-14 01:08)
-                    ✘ size and weight @cancelled(20-06-14 01:08)
-                    ✘ name @cancelled(20-06-14 01:08)
-        ✘ files: @cancelled(20-06-14 01:08)
-            ✘ upload files @cancelled(20-06-14 01:08)
-        ✘ legal: @cancelled(20-06-14 01:08)
-            ✘ legal pages: @cancelled(20-06-14 01:08)
-                ✘ refund @cancelled(20-06-14 01:08)
-                ✘ privacy @cancelled(20-06-14 01:08)
-                ✘ terms @cancelled(20-06-14 01:08)
-                ✘ shiping @cancelled(20-06-14 01:08)
-                ✘ legal notice @cancelled(20-06-14 01:08)
-        taxes:
-            tax regions:
-                ☐ region
-                    ☐ tax value
-                    ☐ overrides
-                        ☐ for collections
-                        ☐ for shipping rates
-            tax calculations:
-                ☐ charge VAT on digital
-                ☐ charge tax on shipping rates
-                ☐ show all prices with tax included
-        sales chanels:
-            ☐ website
-    ✘ sales chanel @cancelled(20-06-14 01:08)
-        ✘ theme @cancelled(20-06-14 01:08)
-        ✘ blog posts @cancelled(20-06-14 01:08)
-        ✘ pages @cancelled(20-06-14 01:08)
-        ✘ navigation @cancelled(20-06-14 01:08)
-        ✘ domains @cancelled(20-06-14 01:08)
-        ✘ preferences @cancelled(20-06-14 01:08)
-            ✘ homepage title @cancelled(20-06-14 01:08)
-            ✘ homepage description @cancelled(20-06-14 01:08)
-            ✘ social sharing image @cancelled(20-06-14 01:08)
-            ✘ google analytics @cancelled(20-06-14 01:08)
-            ✘ facebook pixel @cancelled(20-06-14 01:08)
-            ✘ password protection @cancelled(20-06-14 01:08)
-    ☐ products
-        ☐ add product
-            ☐ title
-            ☐ description
-            ☐ media
-            pricing:
-                ☐ price
-                ✘ compare at price @cancelled(20-06-14 01:09)
-                ✘ cost per item @cancelled(20-06-14 01:09)
-                ☐ charge tax
-            inventory:
-                ✘ sku @cancelled(20-06-14 01:10)
-                ✘ barkode @cancelled(20-06-14 01:10)
-                ☐ quantity
-                    ☐ track quantity
-                    ✘ continue selling when out of stock @cancelled(20-06-14 01:10)
-            shipping:
-                ☐ is phisical
-                ✘ weight @cancelled(20-06-14 01:10)
-                ✘ customs: @cancelled(20-06-14 01:10)
-                    ✘ country of origin @cancelled(20-06-14 01:10)
-                    ✘ hs code @cancelled(20-06-14 01:10)
-            variants:
-                ☐ options
-                ☐ generate variants
-                ☐ variant
-                    ☐ price
-                    ☐ quantity
-                    ✘ sku @cancelled(20-06-14 01:10)
-                    ✘ barcode @cancelled(20-06-14 01:10)
-            ✘ se listing: @cancelled(20-06-14 01:10)
-                ✘ title @cancelled(20-06-14 01:10)
-                ✘ description @cancelled(20-06-14 01:10)
-                ✘ url @cancelled(20-06-14 01:10)
-            availability:
-                ☐ connect to sales chanels
-                ✘ organizaion: @cancelled(20-06-14 01:10)
-                    ✘ type @cancelled(20-06-14 01:10)
-                    ✘ vendor @cancelled(20-06-14 01:10)
-                collections:
-                    ☐ add to collection
-                ✘ tags: @cancelled(20-06-14 01:11)
-                    ✘ add tags @cancelled(20-06-14 01:11)
-        inventory:
-            ☐ edit quantity available
-            ☐ if product have an option it's required to use variants
-            ☐ variant
-                ☐ image
-                ☐ price
-                ✘ cost per item @cancelled(20-06-14 01:11)
-                ☐ charge tax
-                ☐ sku
-                ...options as in product
-        collections:
-            ☐ collection
-                ☐ title
+                ☐ action buttons
+            ☐ edit category
+                ☐ name
                 ☐ description
                 ☐ image
-                ✘ products @cancelled(20-06-14 01:11)
-                ✘ seo @cancelled(20-06-14 01:11)
-        ✘ gift cards: @cancelled(20-06-14 01:11)
-            ✘ gift cart @cancelled(20-06-14 01:11)
-                ✘ code @cancelled(20-06-14 01:11)
-                ✘ value @cancelled(20-06-14 01:11)
-                ✘ customer @cancelled(20-06-14 01:11)
-                ✘ exp date @cancelled(20-06-14 01:11)
-                ✘ notes @cancelled(20-06-14 01:11)
+                ☐ status
+        ☐ manufacturers
+            ☐ list manufacturers
+                ☐ id
+                ☐ name
+                ☐ action buttons
+            ☐ edit manufacturer
+                ☐ name
+                ☐ description
+                ☐ image
+                ☐ status
+        ☐ products
+            ☐ list products
+                ☐ id
+                ☐ image
+                ☐ name
+                ☐ action buttons
+            ☐ edit product
+                ☐ name
+                ☐ description
+                ☐ image
+                ☐ status
 
 catalog:
     ☐ customer
         ☐ can login
             ☐ can have an address
-            ☐ can have
