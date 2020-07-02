@@ -1,10 +1,10 @@
-# Dopecart prototype
+# Dopecart Prototype
 
 The working store, just to prove the concept.
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Ivan Stasiuk via [brokeyourbike@gmail.com](mailto:brokeyourbike@gmail.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Dopecart, please send an e-mail to Ivan Stasiuk via [brokeyourbike@gmail.com](mailto:brokeyourbike@gmail.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
