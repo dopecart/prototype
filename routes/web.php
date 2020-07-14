@@ -21,7 +21,7 @@ Route::prefix('admin')
 
     Auth::routes(['register' => false]);
 
-    Route::get('/', 'HomeController@index')->name('home');
+    Route::get('/', 'HomeController@index');
 
     Route::prefix('settings')
         ->namespace('Settings')
