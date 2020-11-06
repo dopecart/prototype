@@ -21,14 +21,18 @@ Route::prefix('admin')
 
     Auth::routes(['register' => false]);
 
-    Route::get('/', 'HomeController@index');
 
-    Route::prefix('settings')
-        ->namespace('Settings')
+    Route::middleware(['auth:web'])
         ->group(function() {
+            Route::get('/', 'HomeController@index');
 
-        Route::get('/', 'SettingsController@index');
-    });
+            Route::prefix('settings')
+                ->namespace('Settings')
+                ->group(function() {
+
+                Route::get('/', 'SettingsController@index');
+            });
+        });
 });
 
 Route::get('/', 'HomeController@index')->name('home');
