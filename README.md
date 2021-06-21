@@ -1,5 +1,8 @@
 # Dopecart Prototype
 
+![GitHub](https://img.shields.io/github/license/dopecart/prototype?style=flat-square)
+![Maintenance](https://img.shields.io/maintenance/no/2020?style=flat-square)
+
 The working store, just to prove the concept.
 
 ## Security Vulnerabilities
